@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <h1>Header</h1>
+   Hello darkness, my old friend!
+   <router-view></router-view>
+     <h1>Footer</h1>
   </div>
 </template>
+
+<script>
+  export default {
+  
+  }
+</script>
 
 <style lang="scss">
 #app {
